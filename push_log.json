@@ -1,0 +1,240 @@
+[
+  {
+    "sku": "CSL-845-068",
+    "title": "Casalivo Invernadero de Túnel 3,5x3x2 m Invernadero de Jardín con 6 Ve",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259696152913",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-845-070",
+    "title": "Casalivo Invernadero de Túnel 445x300x205 cm Invernadero de Jardín con",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259696316753",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-831-135BK",
+    "title": "Casalivo Banco Zapatero Banqueta con Brazos Tapizada tipo Banco de Mad",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259696447825",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-831-135WT",
+    "title": "Casalivo Banco Zapatero Banqueta con Brazos Tapizada tipo Banco de Mad",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259696546129",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-831-135GY",
+    "title": "Casalivo Banco Zapatero Banqueta con Brazos Tapizada tipo Banco de Mad",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259696775505",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-845-019WT",
+    "title": "Casalivo Invernadero de Exterior Invernadero de Túnel 8x3x2 m Invernad",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259696939345",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-801-074",
+    "title": "Casalivo Carrito Auxiliar con Ruedas de Acero Inoxidable 90,5x50,5x88,",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259697168721",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-839-026",
+    "title": "Casalivo Sofá Cama de 1 Plaza Tapizado en Lino con Respaldo Ajustable ",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259697398097",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-845-019V01",
+    "title": "Casalivo Invernadero de Exterior Invernadero de Túnel 8x3x2 m Invernad",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259697496401",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-845-011WT",
+    "title": "Casalivo Invernadero Tipo Caseta de Jardín o Terraza 6x3x2 m para Cult",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259697594705",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-834-077",
+    "title": "Casalivo Armario Alto de Baño Estrecho con 1 Cajón y 3 Estantes Abiert",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259697693009",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-84D-016CW",
+    "title": "Casalivo Sombrilla de Terraza de Aluminio 2x1,3x2,5 m Parasol de Jardí",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259697758545",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-833-541WT",
+    "title": "Casalivo Mesita Auxiliar Mesa Auxiliar Blanca Mesa de Centro con Estan",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259697824081",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-846-049",
+    "title": "Casalivo Barbacoa de Carbón con Parrilla Ajustable en Altura para Exte",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259697922385",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-836-279",
+    "title": "Casalivo Estantería Estilo Industrial Retro con 6 Estantes Abiertos pa",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259698053457",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-84D-017GY",
+    "title": "Casalivo Parasol de Terraza Rectangular Inclinable 200x150x235 cm con ",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259698184529",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-820-062",
+    "title": "Casalivo Cubre Radiadores, 111.5x19x82 cm, Cubierta para Radiador Mode",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259698217297",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-833-179",
+    "title": "Casalivo Mesa Plegable de Pared Mesa Abatible de Pared de Madera Ahorr",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259698315601",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-833-179WT",
+    "title": "Casalivo Mesa Plegable de Pared Mesa Abatible de Pared de Madera Ahorr",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259698413905",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-84D-021",
+    "title": "Casalivo Conjunto de 4 Pesos Rellenables con Agua o Arena de HDPE para",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259698446673",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-D06-099",
+    "title": "Casalivo Puerta para Perros con Longitud Ajustable Cierre Automático p",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259698544977",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-845-234V01",
+    "title": "Casalivo Invernadero de Exterior 350x100x80 cm Invernadero de Jardín c",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259698708817",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-845-078",
+    "title": "Casalivo Caseta de Metálico 258x206x178 cm 5,3m² con Puertas Corredera",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259698774353",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-836-027V01WT",
+    "title": "Casalivo Cajonera de Oficina con Cajón con Cerradura y Armario con Rue",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259698872657",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-845-382V03GN",
+    "title": "Casalivo Plásticos para Invernaderos 3x2x2 m Cubierta de Repuesto para",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259699069265",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-831-216",
+    "title": "Casalivo Cómoda con 4 Cajones Cómoda de Dormitorio Mesita de Noche con",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259699233105",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-831-216V01",
+    "title": "Casalivo Cómoda con 2 Cajones Cómoda de Dormitorio Mesita de Noche con",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259699396945",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-831-219",
+    "title": "Casalivo Espejo de Maquillaje con Luz LED Plegable Espejo Triple de Me",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259699560785",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-831-220",
+    "title": "Casalivo Espejo Joyero de Pie con 16 Luces LED y Ángulo Ajustable Orga",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259699626321",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-831-221",
+    "title": "Casalivo Espejo Joyero con 20 Luces LED Armario Joyero Reclinable con ",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259699790161",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-831-222WT",
+    "title": "Casalivo Joyero de Pie con Espejo Armario para Joyas Luces Reclinable ",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259700150609",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-844-278BK",
+    "title": "Casalivo Set de 9 Baldosas Cuadradas de 30x30 cm con Área de 0,81 m² L",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259700216145",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-844-278BN",
+    "title": "Casalivo Set de 9 Baldosas Cuadradas de 30x30 cm con Área de 0,81 m² L",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259700347217",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  },
+  {
+    "sku": "CSL-D30-202GY",
+    "title": "Casalivo Árbol Rascador para Gato Ø40x65 cm con 3 niveles y Cuerda Col",
+    "action": "error",
+    "product_id": "gid://shopify/Product/11259700543825",
+    "error": "[{\"message\": \"Access denied for publications field. Required access: `read_publications` access scope.\", \"locations\": [{\"line\": 1, \"column\": 3}], \"extensions\": {\"code\": \"ACCESS_DENIED\", \"documentation\": \"https://shopify.dev/api/usage/access-scopes\", \"requiredAccess\": \"`read_publications` access scope.\"}, \"path\": [\"publications\"]}]"
+  }
+]

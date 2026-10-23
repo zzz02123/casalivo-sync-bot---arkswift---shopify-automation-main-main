@@ -1,0 +1,32 @@
+{
+  "source": "C:/Users/mi/Downloads/Aosom ESStore Products 20261021(6).xlsx",
+  "parents": 5650,
+  "total_variants": 8120,
+  "color_variant_parents": 1477,
+  "size_variant_parents": 539,
+  "single_products": 3978,
+  "csv_rows": 58911,
+  "files": [
+    {
+      "file": "shopify_import_es_full_01.csv",
+      "rows": 20001,
+      "bytes": 12627168
+    },
+    {
+      "file": "shopify_import_es_full_02.csv",
+      "rows": 20001,
+      "bytes": 12378811
+    },
+    {
+      "file": "shopify_import_es_full_03.csv",
+      "rows": 18909,
+      "bytes": 11837077
+    }
+  ],
+  "total_bytes": 36843056,
+  "whitewash_leaks": [],
+  "price_min": 4.99,
+  "price_max": 1093.99,
+  "avg_margin_pct": 48.3,
+  "template": "shopify-current (Option1=Color, Option2=Talla)"
+}

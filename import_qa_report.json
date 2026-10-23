@@ -1,0 +1,78 @@
+{
+  "inventory_rows": 49,
+  "published_products": 34,
+  "csv_rows": 340,
+  "skipped": [
+    {
+      "sku": "845-365",
+      "reason": "qty 0 <= buffer 3"
+    },
+    {
+      "sku": "851-013",
+      "reason": "qty 3 <= buffer 3"
+    },
+    {
+      "sku": "01-0694",
+      "reason": "qty 0 <= buffer 3"
+    },
+    {
+      "sku": "01-0708",
+      "reason": "qty 0 <= buffer 3"
+    },
+    {
+      "sku": "01-0709",
+      "reason": "qty 0 <= buffer 3"
+    },
+    {
+      "sku": "01-0710",
+      "reason": "qty 0 <= buffer 3"
+    },
+    {
+      "sku": "84D-016CF",
+      "reason": "qty 0 <= buffer 3"
+    },
+    {
+      "sku": "01-0712",
+      "reason": "qty 0 <= buffer 3"
+    },
+    {
+      "sku": "100110-059CW",
+      "reason": "qty 0 <= buffer 3"
+    },
+    {
+      "sku": "100110-059SA",
+      "reason": "qty 0 <= buffer 3"
+    },
+    {
+      "sku": "84D-017CW",
+      "reason": "qty 0 <= buffer 3"
+    },
+    {
+      "sku": "84D-016WR",
+      "reason": "qty 0 <= buffer 3"
+    },
+    {
+      "sku": "01-0340",
+      "reason": "qty 0 <= buffer 3"
+    },
+    {
+      "sku": "84C-038",
+      "reason": "qty 0 <= buffer 3"
+    },
+    {
+      "sku": "84D-074CW",
+      "reason": "qty 0 <= buffer 3"
+    }
+  ],
+  "whitewash_leaks": [],
+  "price_min": 39.99,
+  "price_max": 397.99,
+  "cost_total": 1944.19,
+  "price_total": 3663.66,
+  "avg_margin_pct": 49.0,
+  "sources": {
+    "inventory": "C:\\Users\\mi/Downloads/库存 - 工作表1.csv",
+    "catalog": "C:\\Users\\mi/Downloads\\Aosom ESStore Products 20261016(5).xlsx"
+  },
+  "warnings": []
+}

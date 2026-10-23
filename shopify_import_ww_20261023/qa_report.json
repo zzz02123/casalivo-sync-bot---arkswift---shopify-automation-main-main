@@ -1,0 +1,2796 @@
+{
+  "source": "C:/Users/mi/Downloads/Aosom ESStore Products 20261023(2).xlsx",
+  "engine": "whitewash_engine.WhitewashEngine",
+  "rows_in_sheet": 8431,
+  "cleansed_skus": 8431,
+  "parents": 5943,
+  "variants": 8103,
+  "color_variant_parents": 1364,
+  "size_variant_parents": 324,
+  "single_products": 4386,
+  "in_stock_variants": 6028,
+  "out_of_stock_variants": 2075,
+  "duplicate_listings_merged": 58,
+  "handles_disambiguated": 24,
+  "handles_reused_from_store": 34,
+  "descriptions_repaired": 8149,
+  "skipped": [
+    {
+      "sku": "CSL-B40-022BU",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D51-154GN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D30-663V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-838-129V80BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-837-423V80AK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-B81-038V01BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-851-031V02BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-851-033V00BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-314-001V00GN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-311-088V80PK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D04-069V00LG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-834-765V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-837-062V02WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83A-117V80WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-837-548V80AK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-831-930V00DG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D51-431V01BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-371-053V00BU",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-837-578V01GN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-312-107V80PK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-837-320V01WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-312-136V80PK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-B31-544V90GD",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83A-173V81CW",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-C30-049V00BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-836-144V01AK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-A91-503V01RD",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-A91-503V00RD",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-713-202V90BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-820-478V90WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-842-062",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-831-678V00AK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-830-898V90GN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83D-129V01LG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-820-355V90WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-831-445V02GY",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D00-058V02CF",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D00-041V01DB",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-834-922V80WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83D-173V80AK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-712-055V00GD",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-A91-483V00RD",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D06-109V03BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83B-642V90WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-311-094V80WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-316-027V80WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D51-513V00ND",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D51-446V00LG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-801-383V00ND",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-924-086V80WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-330-222V00CW",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-330-230V00PK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83A-580V00CG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83A-580V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-350-234V80PK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-370-493V90RD",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-370-493V90BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-331-124V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-341-059V00BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D10-117V00BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-350-222V80CW",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-330-228V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83B-350V90CW",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-350-224V00GY",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-842-498V00BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-F12-021V00ND",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-370-499V90BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-3D0-052V00LG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-314-002V00PK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-914-028V00ND",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D1-0109",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-A91-501V00MX",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-331-131V00MX",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83B-720V00CW",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D08-085V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D51-458V00BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-920-084V80WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83B-959V00BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-314-003V90WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83C-069V01GN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-700-095V92GY",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D1-0111",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83A-295V00AK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-370-524V90BU",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-370-524V90PK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D06-217V00GY",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-820-356V90BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-820-356V90BN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-831-908V00GY",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-831-908V00CW",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-831-908V00GN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D31-185V00GY",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83C-250V00GN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-844-371V90",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83D-284V80WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-833-757V01PK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-925-017V00PK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-925-017V00CW",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83B-034V70DR",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83B-034V70GY",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D32-050V00BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-801-460V00AK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-925-002V00MX",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-A70-082V00GN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D30-994V00CG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-838-414V00GY",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-835-255V00GY",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-834-959V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-833-066",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83B-425V01LG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D06-217V01BN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D06-217V01GY",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-315-012V80GN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83B-896V00CW",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-A91-335V03BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-838-584V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-A70-043",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-370-483V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D31-174V00LG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-800-152V90CW",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-A62-012V00BU",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-842-499V90OG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83A-400V80WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83B-600V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-925-011V00BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D51-457V00BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D32-050V01BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-830-438",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-800-342V90CW",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-331-134V80MX",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-851-042V00SR",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-001-026V01BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-001-026V00BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83B-565V01BG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83B-962V00CW",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-A90-443V00RD",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-800-202V90BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-713-191V90DR",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-713-191V90BG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-713-191V90CG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-836-144BN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83B-985V00GY",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83B-985V00BG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-A91-509V00BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-830-705V00YG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83F-117V00LR",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-350-241V80GN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-925-037V00BN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-AA1-137V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-AA1-137V00GN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-AA1-138V00RD",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-AA1-138V00GD",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-820-515V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-820-515V00BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-001-020V91WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83B-104V00GN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-A91-502V00RD",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-836-667V00BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-700-167V90CW",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83C-163V90WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-A90-456V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83E-019V80WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83C-252V01GN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83C-252V00GN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-924-090V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-833-904",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-837-809V91GN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-837-809V91WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-801-465V90WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-800-351V92BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-834-607V80WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-851-089V00SR",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-837-804V81AK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-B31-468V90BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-820-509V80WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-837-807V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-820-523V90WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-834-873V00AK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D04-316V00GY",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-001-007V00BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83F-003V00AK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-921-944V00PK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-842-487V40BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-834-152V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-A90-304WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D08-107V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-851-093V00CW",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-851-093V00LN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-851-093V00BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-836-753V00MX",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-834-982V01WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83A-606V01BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83B-880V00BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83E-043V00GD",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83D-268V01BG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83E-029V00ND",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83F-002V00CW",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D31-186V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-001-020V90WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83C-360V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83D-269V02CW",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83E-016V80WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-837-829V00AK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-837-844V00AK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83A-601V00CR",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-B31-496V90BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-837-693V80WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-837-805V00AK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-B80-015V00BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D32-025V00LG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83A-420V81WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83A-685V00CW",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D34-011V00LG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-A91-502V02RD",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83D-121V00GY",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D31-139V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83D-276V00CG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-B31-545V90BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-830-790V00GN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83C-357V00BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83B-938V00BG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-B31-485V90BU",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-820-532V91BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-370-522V91PK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-370-522V91BU",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D02-259V00BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D02-259V01BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-821-049V90WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83A-321V00BN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D03-008V00OG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D03-008V00BU",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-921-993V90BN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-837-444V80WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-B70-088V02WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83B-953V90WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83A-205V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-821-050V90WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-924-073V80AK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83D-080V01WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-835-090",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-834-990V00CR",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83F-072V00CW",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-820-521V90WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-B31-656V90BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D34-013V90GY",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83A-667V00WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83D-319V00VT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83E-036V90WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-834-993V00CR",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-820-537V90WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83B-951V90WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-800-197V90BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-312-164V00GY",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83D-337V00GY",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-84G-479V00CG",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-820-518V90BN",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-820-518V90WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-820-526V90BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83A-592V00CR",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-800-270V90BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-820-530V90BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83B-911V00CW",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-713-251V90BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83A-574V80AK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83A-569V00AK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-83A-051V80LR",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-820-536V90WT",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-820-529V90BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-370-494V90BK",
+      "reason": "placeholder price (list == shipping)"
+    },
+    {
+      "sku": "CSL-D40-035V01GY",
+      "reason": "placeholder price (list == shipping)"
+    }
+  ],
+  "placeholder_price_skus": [
+    {
+      "sku": "CSL-B40-022BU",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-837-548V80AK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-842-062",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-831-678V00AK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-830-898V90GN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83D-129V01LG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-831-445V02GY",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-A91-483V00RD",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D00-058V02CF",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83B-642V90WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-311-094V80WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-B31-544V90GD",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-836-144V01AK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-316-027V80WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-312-107V80PK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83A-117V80WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D51-513V00ND",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-314-001V00GN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-371-053V00BU",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D51-446V00LG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-801-383V00ND",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-311-088V80PK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-312-136V80PK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-330-222V00CW",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-330-230V00PK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83A-580V00CG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-350-234V80PK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-370-493V90RD",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-331-124V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-341-059V00BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D10-117V00BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-370-493V90BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-350-222V80CW",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D51-154GN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-330-228V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83D-173V80AK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83B-350V90CW",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-350-224V00GY",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-842-498V00BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-F12-021V00ND",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-370-499V90BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-3D0-052V00LG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-314-002V00PK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-914-028V00ND",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-B81-038V01BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D51-455V00BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D1-0109",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-331-131V00MX",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83B-720V00CW",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D30-663V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83A-173V81CW",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D08-085V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D51-458V00BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-920-084V80WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-820-355V90WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83B-959V00BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-314-003V90WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83C-069V01GN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-831-930V00DG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-700-095V92GY",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D1-0111",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83A-295V00AK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-370-524V90BU",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D06-217V00GY",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-820-356V90BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-831-908V00GY",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D31-185V00GY",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83C-250V00GN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-844-371V90",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83D-284V80WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-833-757V01PK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-925-017V00PK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83B-034V70DR",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D32-050V00BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-801-460V00AK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-925-002V00MX",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-A70-082V00GN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-820-356V90BN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D30-994V00CG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-838-414V00GY",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-835-255V00GY",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-834-959V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-C30-049V00BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-833-066",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-830-920V01GN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-370-524V90PK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D06-217V01BN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-315-012V80GN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83B-896V00CW",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D06-217V01GY",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-A91-335V03BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-838-584V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-A70-043",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-831-908V00CW",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-370-483V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D31-174V00LG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-800-152V90CW",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-A62-012V00BU",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-842-499V90OG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83A-400V80WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83B-600V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-925-011V00BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D51-457V00BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83B-034V70GY",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-831-908V00GN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D32-050V01BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-830-438",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-800-342V90CW",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-331-134V80MX",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-851-042V00SR",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-001-026V01BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-A91-503V01RD",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83B-565V01BG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-837-320V01WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83B-962V00CW",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-A90-443V00RD",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-800-202V90BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-713-191V90DR",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-713-191V90BG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-836-144BN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83B-985V00GY",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-A91-509V00BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-830-705V00YG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83F-117V00LR",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-350-241V80GN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-925-037V00BN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-AA1-137V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-820-515V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-AA1-138V00RD",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83A-580V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-001-020V91WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83B-985V00BG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83B-104V00GN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-A91-502V00RD",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-A91-501V00MX",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-836-667V00BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-700-167V90CW",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83C-163V90WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-A90-456V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83E-019V80WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83C-252V01GN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-924-090V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-833-904",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-837-809V91GN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-801-465V90WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-800-351V92BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-834-607V80WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-851-089V00SR",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-837-804V81AK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-B31-468V90BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-820-515V00BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-820-509V80WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-837-807V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-820-523V90WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-834-873V00AK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-924-086V80WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D04-316V00GY",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-820-478V90WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-001-007V00BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83F-003V00AK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-921-944V00PK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-851-031V02BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-851-033V00BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-842-487V40BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-713-191V90CG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-834-152V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-A91-503V00RD",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-A90-304WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D08-107V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-851-093V00CW",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-836-753V00MX",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-834-982V01WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83A-606V01BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-801-161V83GY",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-837-578V01GN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83B-880V00BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83E-043V00GD",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83D-268V01BG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-851-093V00LN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83E-029V00ND",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83F-002V00CW",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D31-186V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-001-020V90WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83C-360V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-AA1-138V00GD",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-713-202V90BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83D-269V02CW",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83C-252V00GN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83E-016V80WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-AA1-137V00GN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-837-829V00AK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D51-431V01BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-837-844V00AK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83A-601V00CR",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-B31-496V90BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-001-026V00BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-801-161V83BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-837-693V80WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-837-805V00AK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-B80-015V00BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D32-025V00LG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-837-809V91WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83A-420V81WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83A-685V00CW",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D34-011V00LG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-A91-502V02RD",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83D-121V00GY",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D31-139V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-837-423V80AK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83D-276V00CG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-B31-545V90BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-837-062V02WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-830-790V00GN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-851-093V00BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83C-357V00BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83B-938V00BG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-B31-485V90BU",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-820-532V91BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-370-522V91PK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D02-259V00BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D04-069V00LG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-821-049V90WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83A-321V00BN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D03-008V00OG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-921-993V90BN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-837-444V80WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-925-017V00CW",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-834-922V80WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-B70-088V02WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D02-259V01BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-834-765V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83B-953V90WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-838-129V80BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-820-532V92BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83A-205V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-821-050V90WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-924-073V80AK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83D-080V01WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-835-090",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-834-990V00CR",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83F-072V00CW",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-820-521V90WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-B31-656V90BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D03-008V00BU",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D34-013V90GY",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83A-667V00WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-370-522V91BU",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83D-319V00VT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83E-036V90WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-834-993V00CR",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D00-041V01DB",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-820-537V90WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83B-951V90WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-712-055V00GD",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-800-197V90BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-312-164V00GY",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83D-337V00GY",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-84G-479V00CG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-820-518V90BN",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-820-526V90BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83A-592V00CR",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-800-270V90BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-820-530V90BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83B-911V00CW",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83B-425V01LG",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-713-251V90BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83A-574V80AK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83A-569V00AK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-83A-051V80LR",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-820-536V90WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-820-529V90BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-820-518V90WT",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D06-109V03BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-370-494V90BK",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    },
+    {
+      "sku": "CSL-D40-035V01GY",
+      "list_price": 888.0,
+      "shipping_fee": 888.0,
+      "stock": 0
+    }
+  ],
+  "placeholder_price_count": 275,
+  "whitewash_leaks": [],
+  "whitewash_leak_count": 0,
+  "barcodes": 8103,
+  "barcodes_unique": 8103,
+  "barcode_format_errors": [],
+  "barcode_check_digit_errors": [],
+  "brand_in_title": [],
+  "vendor_filled": [],
+  "bodies_without_sections": [],
+  "bodies_with_assembly_section": 5682,
+  "bodies_with_manual_link": 0,
+  "metafield_assembly_manual": 5669,
+  "bodies_with_external_manual_url": 0,
+  "files_starting_mid_product": [],
+  "compare_at_price": "empty",
+  "price_min": 11.99,
+  "price_max": 989.99,
+  "cost_total": 605447.93,
+  "price_total": 923938.97,
+  "avg_margin_pct": 35.4,
+  "csv_rows": 61534,
+  "files": [
+    {
+      "file": "shopify_import_casalivo_ww_01.csv",
+      "rows": 19993,
+      "bytes": 15622058
+    },
+    {
+      "file": "shopify_import_casalivo_ww_02.csv",
+      "rows": 19998,
+      "bytes": 15316681
+    },
+    {
+      "file": "shopify_import_casalivo_ww_03.csv",
+      "rows": 19993,
+      "bytes": 15524793
+    },
+    {
+      "file": "shopify_import_casalivo_ww_04.csv",
+      "rows": 1550,
+      "bytes": 1151048
+    }
+  ],
+  "total_bytes": 47614580
+}

@@ -1,0 +1,31 @@
+{
+  "source": "C:/Users/mi/Downloads/Aosom ESStore Products 20261023(2).xlsx",
+  "parents": 5943,
+  "variants": 8103,
+  "csv_rows": 61534,
+  "files": [
+    {
+      "file": "shopify_import_casalivo_ww_01.csv",
+      "rows": 19993,
+      "bytes": 15592462
+    },
+    {
+      "file": "shopify_import_casalivo_ww_02.csv",
+      "rows": 19998,
+      "bytes": 15287080
+    },
+    {
+      "file": "shopify_import_casalivo_ww_03.csv",
+      "rows": 19993,
+      "bytes": 15495022
+    },
+    {
+      "file": "shopify_import_casalivo_ww_04.csv",
+      "rows": 1550,
+      "bytes": 1148715
+    }
+  ],
+  "total_bytes": 47523279,
+  "template": "shopify-current (Option1=Color, Option2=Talla)",
+  "engine": "whitewash_engine.WhitewashEngine"
+}

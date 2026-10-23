@@ -1,0 +1,6 @@
+{
+  "name": "Casalivo Sync Bot - ArkSwift & Shopify Automation",
+  "description": "Automated dropshipping and inventory synchronization command center for Casalivo: ArkSwift API/CSV import, brand whitewashing, tiered pricing, and direct Shopify publishing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

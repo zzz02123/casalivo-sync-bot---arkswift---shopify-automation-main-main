@@ -1,0 +1,102 @@
+Casalivo / Shopify 导入包 — 2026-10-23（已剔除 888 占位价）
+============================================================
+
+数据源 : C:\Users\mi\Downloads\Aosom ESStore Products 20261023(2).xlsx  (Product info 表，8,431 行)
+清洗引擎: bot_scripts/whitewash_engine.py -> WhitewashEngine.transform()
+生成脚本: bot_scripts/build_casalivo_ww_import.py --skip-placeholder-prices
+抽样本  : bot_scripts/make_sample_import.py（直接从全量包原样抽取，不是另生成的数据）
+生成时间: 2026-10-23
+
+建议导入顺序
+------------
+第 1 步  sample_20_import.csv        20 个抽样商品，先导进 Shopify 检查效果
+第 2 步  确认无误后导入 shopify_import_casalivo_ww_01..04.csv（按 01→04 顺序，单文件约 2 万行）
+
+文件
+----
+sample_20_import.csv                    20 个抽样商品（229 行 = 48 变体行 + 181 图片行）
+shopify_import_casalivo_ww_01..04.csv   全量导入文件（61,534 行，含 4 行表头）
+placeholder_price_skus.csv              275 个 888 占位价 SKU 清单（本次未导入，价格恢复后可单独补）
+manifest.json                           文件清单 + 统计
+qa_report.json                          质检明细（跳过项、条码、标题/品牌、正文结构、价格/毛利）
+
+规模
+----
+源表 SKU           8,431
+上架父商品          5,943
+变体总数            8,103  （1,364 个父商品有颜色变体，324 个有尺寸变体）
+CSV 行数           61,534 （父商品行 + 变体行 + 商品图行）
+在库变体            6,028
+缺货变体            2,075 （按 0 库存上架，前台显示售罄）
+合并的同款重挂 SKU     58
+未导入的占位价 SKU    270 （另有 5 个在占位价清单里，但已作为同名重挂合并）
+价格区间            €11.99 – €989.99
+
+抽样覆盖（sample_20_import.csv）
+----
+20 个不同类目，结构各 5 个：5 个单商品 + 5 个颜色变体 + 5 个尺寸变体 + 5 个颜色×尺寸，
+全部有库存、无占位价，共 48 个变体、181 张商品图。表头、字段值与全量包逐行一致。
+
+字段规则（本次更新）
+----
+标题    : 去掉 Casalivo / Casalivo Pets / Casalivo Office 品牌词（前缀和句中出现都清掉），
+          首字母大写，无残留重复空格或结尾分隔符
+Vendor  : 留空
+Tags    : 只留类目标签（Type + 西语大类），“Casalivo / Dropship / AutoSync” 全部去掉
+条码    : Variant Barcodes = ean: + 841（西班牙）+ 5792（厂商代码）+ 5 位随机码 + GS1 校验位，
+          例 ean:8415792615295。全站 8,103 个变体全部唯一、校验位全部正确；
+          随机码的起点由 SKU 哈希决定，重跑同一 SKU 得到同一个条码（增量更新不会换码）
+正文    : Body (HTML) 由 Features + Description + Main Color + Main Material + Product Style +
+          Assembled L/W/H + Product Weight + Assembly Instruction 1 合并生成，结构为
+            简介段落（描述按 2 句一段拆开，手机端好扫）
+            H2  Características destacadas：每条 Features 一行，加粗小标题 + 说明
+            H2  Medidas y detalles：颜色 / 材质 / 风格 / 尺寸 / 重量 两列表格（内联样式，窄屏不错位）
+            H2  Montaje：有装配说明的商品给出“含图解装配说明”提示（不放外链，PDF 在 metafield 里）
+          颜色变体商品的颜色行写“Varios colores disponibles”，尺寸变体商品的尺寸/重量逐档列出
+          （尺寸不统一时不会只写第一个变体的数据）
+          全部内联样式、h2 分节、段落短句，适配手机端阅读
+SKU     : CSL- + 原始 SKU 大写
+售价    : 成本 = List Price + ES Shipping Fee；≤100 ×1.55，100–200 ×1.50，>200 ×1.45，取整 .99
+划线价  : 不设（Compare-at price 整列留空，8,103 行 0 个值）——前台不显示折扣、也避免 GMC 判虚假折扣
+库存    : 可售 = Qty Available − 3（安全缓冲）
+变体    : Option1=Color（同款多色），Option2=Talla（同款多尺寸，标签取标题里不同的尺寸/容量段）
+描述/标题文案：沿用引擎的品牌替换与敏感词过滤，生成脚本负责删词后的断句/标点修补（引擎未改）；
+          引擎黑名单外还出现在 ES 数据里的 AIYAPLAY / Qaba / Kleankin 等也一并清掉（本次 6 个正文、0 个标题）
+
+装配说明书：放在 metafield，不进正文
+----
+CSV 最后多一列：Assembly manual (product.metafields.custom.assembly_manual)
+值 = Assembly Instruction 1 的 PDF 地址，只写在父商品行（5,669 个父商品有值，去重后 5,485 个 PDF）；
+正文里不再放链接，只保留“含图解装配说明”的文字提示，抽屉样式由主题读取 metafield 渲染。
+
+导入前必须先在后台建好 metafield 定义，否则这一列会被 Shopify 静默忽略（不报错）：
+  设置 → 自定义数据 → 产品 → 添加定义
+  名称: Assembly manual    命名空间和密钥: custom.assembly_manual    类型: URL（链接）
+
+主题抽屉示意：
+  {% if product.metafields.custom.assembly_manual.value %}
+    <details><summary>Instrucciones de montaje</summary>
+      <a href="{{ product.metafields.custom.assembly_manual.value }}" target="_blank" rel="noopener">Descargar PDF</a>
+    </details>
+  {% endif %}
+
+备注：现在的值是 cdn3.arkswift.com 的 PDF 地址，点开或看源码会露出这个域名。
+以后把 PDF 批量传进 Shopify Files（需要 Admin API 凭据），只换这一列的值即可，key/类型/主题代码都不用改。
+如果还想在正文里也放一个下载按钮，加 --manual-links 重跑。
+
+其他须知
+----
+1. 图片 URL 仍指向 arkswift CDN（Shopify 导入时会下载并转存到自家 CDN，前台不暴露来源）。
+2. 店铺里已有的 34 个 CSL-* 商品沿用了原 handle，重新导入是更新而不是新建重复商品。
+3. Product category 使用 Shopify 标准类目映射，仅 1 个父商品（Other Supplies）无对应类目，留空。
+4. 有 1 个商品（d1-0100 宠物运输箱）源表没有 Features 和 Description，正文只有规格表 + 装配提示。
+5. 若要把 888 占位价商品也上架，去掉 --skip-placeholder-prices 重跑即可（价格会是 €2,575.99）。
+
+导入报错修复（Title must be specified）
+----
+三处已修，全部重新生成：
+1. 文件不再带 UTF-8 BOM（BOM 会让 Shopify 把首列表头读成 "\ufeffTitle"，于是整份文件报 Title must be specified）
+2. 拆分改为按商品边界切：每个文件的第一行一定是带 Title 的父商品行，不会再出现“文件开头是变体/图片行”
+3. Continue selling when out of stock 的值由 "deny" 改为模板要求的 FALSE（父商品行一律 FALSE，其余行留空）
+自检：4 个文件首行都有 Title、0 个 handle 跨文件、0 个 BOM、0 个 Compare-at 值、0 个非法枚举值。
+若仍报同样错误，请告我具体文件名（sample 还是 01..04），我按那份文件逐行定位。
